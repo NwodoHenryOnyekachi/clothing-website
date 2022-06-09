@@ -1,0 +1,38 @@
+body{
+    background-color: rgba(50, 70, 109, 0.972);
+}
+
+#Register {
+    display: flex;
+    max-width: 40rem;
+    justify-content: center;
+    align-items: center;
+    background-color: darkorange;
+    margin: 15vh auto;
+    border-radius: 15px;
+}
+#Register form{
+    position: Relative;
+    padding: 20px 5px;
+    width: 80%;
+    text-align: center;
+}
+#Register form input{
+    width: 100%;
+    border-radius: 5px;
+    border-color: black;
+    padding: 10px 5px;
+    margin: 10px 0px;
+}
+form .fa-eye.active::before{
+    content: "\F070";
+    color: rgb(61, 43, 43);
+}
+.fa-eye-slash{
+    position: absolute;
+    top: 300px;
+    right: 10px;
+}
+.password input{
+    padding-right: 15px;
+}
